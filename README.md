@@ -63,3 +63,15 @@ Ejemplos de consultas:
 - "¿Cuál es el estado actual del presupuesto del departamento de Marketing?"
 - "Muestra una comparación de todos los departamentos"
 - "Identifica departamentos que excedan el 90% de su presupuesto"
+
+ARCHIVO JSON 
+claude_desktop_config.json
+{
+  "mcpServers": {
+    "ExcelBudgetServer": {
+      "command": "C:/Users/Leved/miniconda3/python.exe",
+      "args": ["d:/docker/trae/mcp1/excel_mcp_server.py"],
+      "cwd": "d:/docker/trae/mcp1"
+    }
+  }
+}
